@@ -1,4 +1,4 @@
-# Shopping_Website
+# Ecommerce_Website
 
 This is an Ecommerce Website, it delivers all sorts of features such as a product section, and a cart section and everything is done using pure Html, CSS, and JavaScript.
 
