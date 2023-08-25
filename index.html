@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <title>ClassyCuts</title>
+
+</head>
+
+<body>
+    <!-- Heading Section -->
+    <header>
+        <a href="index.html"><img src="./img/logo.png" alt="logo" class="logo"></a>
+
+        <!-- Nav Section -->
+        <div>
+            <ul class="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="bag"><a href="cart.html"><ion-icon class="cart-main" name="cart"></ion-icon></a></li>
+                <a id="close"><ion-icon name="close-outline"></ion-icon></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><ion-icon class="cart-main menu" name="cart"></ion-icon></a>
+            <ion-icon name="menu-outline" class="menu ham-menu" id="bar"></ion-icon>
+        </div>
+
+    </header>
+
+    <!-- Main Section -->
+    <section class="container">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <div class="slide first">
+                    <img src="./img/Slide Images/slide1.png" alt="img1">
+                </div>
+                <div class="slide">
+                    <img src="./img/Slide Images/slide2.png" alt="img2">
+                </div>
+                <div class="slide">
+                    <img src="./img/Slide Images/slide3.png" alt="img3">
+                </div>
+                <div class="slide">
+                    <img src="./img/Slide Images/slide4.png" alt="img4">
+                </div>
+                <div class="slide">
+                    <img src="./img/Slide Images/slide5.png" alt="img5">
+                </div>
+                <div class="navigation auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+            </div>
+            <div class="navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section id="feature" class="section-p1 section-m1 reveal active">
+        <div class="feature-box">
+            <img src="img/features/f1.png" alt="featureimg">
+            <h3>Free Shipping</h3>
+        </div>
+        <div class="feature-box">
+            <img src="img/features/f2.png" alt="featureimg">
+            <h3>Online Order</h3>
+        </div>
+        <div class="feature-box">
+            <img src="img/features/f3.png" alt="featureimg">
+            <h3>Save Money</h3>
+        </div>
+        <div class="feature-box">
+            <img src="img/features/f4.png" alt="featureimg">
+            <h3>Promotions</h3>
+        </div>
+        <div class="feature-box">
+            <img src="img/features/f5.png" alt="featureimg">
+            <h3>Collaborations</h3>
+        </div>
+        <div class="feature-box">
+            <img src="img/features/f6.png" alt="featureimg">
+            <h3>24/7 Support</h3>
+        </div>
+    </section>
+
+    <!-- Product Section 1 -->
+    <section id="product1" class="section-p1 section-m1 reveal active">
+        <h2>Featured Products</h2>
+        <p>Luscious mind. All possibilities here.</p>
+        <div class="pro-container">
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/Featured1-1.webp" alt="feature">
+                <img class="inside" src="./img/products/Featured1-2.jpeg" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Relaxed Fit Flannel shirt</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 1,999.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div> 
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/Featured2-1.webp" alt="feature">
+                <img class="inside" src="./img/products/Featured2-2.jpeg" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Relaxed Fit Corduroy shirt</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 1,999.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div>   
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/Featured3-1.webp" alt="feature">
+                <img class="inside" src="./img/products/Featured3-2.jpeg" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Relaxed Fit Linen-blend shirt</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 1,099.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div> 
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/Featured4-1.webp" alt="feature">
+                <img class="inside" src="./img/products/Featured4-2.jpeg" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Regular Fit Patterned lyocell shirt</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 1,999.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div>
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/Featured5-1.webp" alt="feature">
+                <img class="inside" src="./img/products/Featured5-2.jpeg" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Square-neck bodycon dress</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 1,499.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div>
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/Featured6-1.webp" alt="feature">
+                <img class="inside" src="./img/products/Featured6-2.jpeg" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Button-front trousers</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 1,499.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div>
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/Featured7-1.webp" alt="feature">
+                <img class="inside" src="./img/products/Featured7-2.jpeg" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Ribbed modal-blend top</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 799.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div>
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/Featured8-1.webp" alt="feature">
+                <img class="inside" src="./img/products/Featured8-2.jpeg" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Fine-knit cardigan</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 999.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Call to Action Banner 1 Section -->
+    <section id="banner1" class="section-p1 section-m1" >
+        <h3>Tasteful Styles</h3>
+        <h4>Up to <span>70% Off</span> - All T-Shirts & Accessories</h4>
+        <button>Explore More</button>
+    </section>
+
+    <!-- Product Section 2 -->
+    <section id="product2" class="section-p1 section-m1 reveal active">
+        <h2>New Arrivals</h2>
+        <p>Embrace the changing seasons with our just-in collection</p>
+
+        <div class="pro-container">
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/NewArrivals1-1.jpg" alt="feature">
+                <img class="inside" src="./img/products/NewArrivals1-2.jpg" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Jacquard-knit jumper</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 1,999.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div> 
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/NewArrivals2-1.webp" alt="feature">
+                <img class="inside" src="./img/products/NewArrivals2-2.jpeg" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Motif-detail bomber jacket</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 3,999.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div>   
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/NewArrivals3-1.webp" alt="feature">
+                <img class="inside" src="./img/products/NewArrivals3-2.webp" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Oversized poplin shirt</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 1,499.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div> 
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/NewArrivals4-1.webp" alt="feature">
+                <img class="inside" src="./img/products/NewArrivals4-2.webp" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Jumper</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 999.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div>
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/NewArrivals5-1.webp" alt="feature">
+                <img class="inside" src="./img/products/NewArrivals5-2.webp" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Relaxed Fit Corduroy shacket</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 2,699.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div>
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/NewArrivals6-1.webp" alt="feature">
+                <img class="inside" src="./img/products/NewArrivals6-2.webp" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Relaxed Fit Rib-knit jumper</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs.2,999.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div>
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/NewArrivals7-1.jpg" alt="feature">
+                <img class="inside" src="./img/products/NewArrivals7-2.jpg" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Slim Fit sweat shirt</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 1,999.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div>
+
+            <div class="pro-content" onclick="window.location.href='product.html'">
+
+                <img class="outside" src="./img/products/NewArrivals8-1.jpg" alt="feature">
+                <img class="inside" src="./img/products/NewArrivals8-2.jpg" alt="feature">
+                <div class="desc">
+                    <span>H&M</span>
+                    <p>Relaxed Fit Rib-knit jumper</p>
+                    <div class="stars">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <h4>Rs. 2,199.00</h4>
+                </div>
+                <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+            </div>
+    </section>
+
+    <!-- Call to Action Banner 2 Section -->
+    <section id="banner2" class="section-p1">
+        <div class="banner-box">
+            <h3>crazy deals</h3>
+            <h3>buy 1 get 1 free</h3>
+            <span>the best classic dress is on sale at ClassyCuts</span>
+            <button>Learn more</button>
+        </div>
+        <div class="banner-box">
+            <h3>spring/summer</h3>
+            <h3>upcoming season</h3>
+            <span>the best classic dress is on sale at ClassyCuts</span>
+            <button>Collection</button>
+        </div>
+    </section>
+
+    <!-- Text Banner Section -->
+    <section id="text-banner">
+        <div class="banner-box">
+            <h2>Western Wear</h2>
+            <h3>50-70% OFF</h3>
+        </div>
+        <div class="banner-box">
+            <h2>Seasonal Sale</h2>
+            <h3>Winter Collection upto 50% OFF</h3>
+        </div>
+        <div class="banner-box">
+            <h2>New Trendy Prints</h2>
+            <h3>Upto 80% OFF</h3>
+        </div>
+    </section>
+
+    <!-- News Letter Section -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="news-text">
+            <h3>Sign up for newsletter</h3>
+            <p>get email updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email Address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <h3>Contact</h3>
+            <p><strong>Address: </strong>JUPMI Buildings, Dhurwa, Ranchi 834004</p>
+            <p><strong>Phone: </strong>+91 1234567890</p>
+            <p><strong>Hours: </strong>10:00 - 19:00, Mon - Sat</p>
+            <div class="follow">
+                <h3>Follow us</h3>
+                <div class="icon">
+                    <ion-icon name="logo-facebook" class="icons"></ion-icon>
+                    <ion-icon name="logo-twitter" class="icons"></ion-icon>
+                    <ion-icon name="logo-instagram" class="icons"></ion-icon>
+                    <ion-icon name="logo-pinterest" class="icons"></ion-icon>
+                    <ion-icon name="logo-youtube" class="icons"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h3>About</h3>
+            <div class="links">
+                <a href="#">About us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact us</a>
+            </div>
+        </div>
+
+        <div class="col">
+            <h3>My Account</h3>
+            <div class="links">
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track my Order</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+
+        <div class="col">
+            <h3>Install App</h3>
+            <p>From App Store or Google Play</p>
+            <div class="store">
+                <img src="img/pay/app.jpg" alt="appstore">
+                <img src="img/pay/play.jpg" alt="appstore">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="payment">
+        </div>
+
+        <div class="copyright">
+            <p>&copy;2023 ClassyCuts Website. All rights reserved</p>
+        </div>
+
+    </footer>
+
+    <!-- Icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
